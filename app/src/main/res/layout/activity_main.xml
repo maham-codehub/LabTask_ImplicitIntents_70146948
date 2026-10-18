@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/university_logo"
+            android:src="@drawable/uol" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:autofillHints="name"
+            android:hint="@string/hint_your_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnWebsite"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_visit_website" />
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_call_help_desk" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_find_campus" />
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send_request" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Myuolhelpdeskapp</string>
+
+    <string name="university_logo">University logo</string>
+    <string name="hint_your_name">Your name</string>
+    <string name="btn_visit_website">Visit Website</string>
+    <string name="btn_call_help_desk">Call Help Desk</string>
+    <string name="btn_find_campus">Find Campus</string>
+    <string name="btn_send_request">Send a Request</string>
+    <string name="error_enter_name">Please enter your name</string>
+    <string name="error_no_app">No app found for this action</string>
+
+    <string name="greeting">Hello, %1$s! How can we help you today?</string>
+    <string name="default_name">Student</string>
+    <string name="hint_phone">Phone number (03XXXXXXXXX)</string>
+    <string name="btn_call_this_number">Call This Number</string>
+    <string name="hint_link">Web link (e.g. www.uol.edu.pk)</string>
+    <string name="btn_open_link">Open Link</string>
+    <string name="error_phone">Enter 11 digits starting with 03</string>
+    <string name="error_link">Please enter a link</string>
+</resources>
